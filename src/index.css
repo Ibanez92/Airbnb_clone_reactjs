@@ -4,6 +4,7 @@
 
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav{
@@ -27,6 +28,14 @@ section{
 }
 
 .hero--photo{
-    max-width: 400px;
+    max-width: 600px;
     align-self: center;
+}
+
+.hero--header{
+    margin-bottom: 16px;
+}
+
+.hero--text{
+    margin-top: 0;
 }
