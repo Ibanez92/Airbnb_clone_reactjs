@@ -9,7 +9,7 @@ export default function Card() {
                 <span className="grey">USA</span>
             </div>
             <p>Life Lesson with Katie Zaferes</p>
-            <p>From $136 / personz</p>
+            <p><span className="bold">From $136</span> / person</p>
         </div>
     )
 }
