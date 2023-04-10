@@ -1,5 +1,7 @@
 export default function Card() {
     return (
-        <h1>Replace this</h1>
+        <div className="card">
+            <img src="src\assets\images\image 12.png" className="card--image"/>
+        </div>
     )
 }
