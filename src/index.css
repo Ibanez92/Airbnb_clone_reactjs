@@ -30,6 +30,8 @@ section{
     padding: 20px;
 }
 
+/* ---------------------------------------- */
+
 .hero{
     display: flex;
     flex-direction: column;
@@ -47,6 +49,8 @@ section{
 .hero--text{
     margin-top: 0;
 }
+
+/* ---------------------------------------- */
 
 .card{
     width: 175px;
@@ -66,3 +70,5 @@ section{
 .card--star{
     height: 14px;
 }
+
+/* ---------------------------------------- */
