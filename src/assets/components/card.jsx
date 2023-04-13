@@ -1,4 +1,4 @@
-export default function Card() {
+export default function Card(props) {
     return (
         <div className="card">
             <img src="src\assets\images\image 12.png" alt="katie zaferes image" className="card--image"/>
