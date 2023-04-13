@@ -8,7 +8,7 @@ export default function Card(props) {
                 <span className="grey">{props.reviewCount} •</span>
                 <span className="grey">{props.country}</span>
             </div>
-            <p>Life Lesson with Katie Zaferes</p>
+            <p>{props.title}</p>
             <p><span className="bold">From $136</span> / person</p>
         </div>
     )
