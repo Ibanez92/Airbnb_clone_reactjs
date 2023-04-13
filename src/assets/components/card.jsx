@@ -1,9 +1,9 @@
 export default function Card(props) {
     return (
         <div className="card">
-            <img src="src\assets\images\image 12.png" alt="katie zaferes image" className="card--image"/>
+            <img src={`src/assets/images/${props.img}`} alt="katie zaferes image" className="card--image"/>
             <div className="card--stats">
-                <img src="src\assets\images\Star 1.png" className="card--star"/>
+                <img src="src\assets\images\star_1.png" className="card--star"/>
                 <span>5.0</span>
                 <span className="grey">(6) •</span>
                 <span className="grey">USA</span>
