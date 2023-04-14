@@ -7,7 +7,7 @@ function App() {
     return(
         <div>
             <Navbar />
-            <Hero />
+            <Hero />            
             <Card 
                 img="image_12.png"
                 rating="5.0"
