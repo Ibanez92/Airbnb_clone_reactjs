@@ -1,4 +1,4 @@
-import group from "../../images/group_77.png"
+import group from "../../images/group.png"
 
 export default function Hero() {
     return (<section className="hero">
