@@ -5,18 +5,18 @@ import katie from "../src/images/katie_z.png"
 import data from "../data"
 
 function App() {
-    return(
+    const cards = data.map((info) => {
+        return <Card img={katie}
+            rating="5.0"
+            reviewCount={6}
+            country="USA"
+            title="Life Lessons with Katie Zaferes"
+            price={136}/>
+    })
+    return (
         <div>
-            <Navbar />
-            <Hero />            
-            <Card 
-                img={katie}
-                rating="5.0"
-                reviewCount={6}
-                country="USA"
-                title="Life Lessons with Katie Zaferes"
-                price={136}
-            />
+            <Navbar/>
+            <Hero/>
         </div>
     )
 }
