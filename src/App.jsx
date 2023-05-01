@@ -2,6 +2,7 @@ import Navbar from "./assets/components/navbar"
 import Hero from "./assets/components/hero"
 import Card from "./assets/components/card"
 import katie from "../src/images/katie_z.png"
+import data from "../data"
 
 function App() {
     return(
