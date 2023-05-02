@@ -10,8 +10,8 @@ function App() {
             rating={info.stats.rating}
             reviewCount={info.stats.reviewCount}
             country={info.location}
-            title="Life Lessons with Katie Zaferes"
-            price={136}/>
+            title= {info.title}
+            price={info.price}/>
     })
     return (
         <div>
