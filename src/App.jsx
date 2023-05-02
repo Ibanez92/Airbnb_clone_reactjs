@@ -6,6 +6,7 @@ import data from "../data"
 function App() {
     const cards = data.map((info) => {
         return ( <Card 
+            key={info.id}
             img={info.coverImg}
             rating={info.stats.rating}
             reviewCount={info.stats.reviewCount}
@@ -18,7 +19,9 @@ function App() {
     return (
         <div>
             <Navbar/>
-            {cards}
+            <section className="cards-list">
+                {cards}
+            </section>
         </div>
     )
 }
