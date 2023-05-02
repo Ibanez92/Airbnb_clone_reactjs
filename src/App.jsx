@@ -6,8 +6,8 @@ import data from "../data"
 
 function App() {
     const cards = data.map((info) => {
-        return <Card img={katie}
-            rating="5.0"
+        return <Card img={info.coverImg}
+            rating={info.stats.rating}
             reviewCount={6}
             country="USA"
             title="Life Lessons with Katie Zaferes"
@@ -16,7 +16,7 @@ function App() {
     return (
         <div>
             <Navbar/>
-            <Hero/>
+            {cards}
         </div>
     )
 }
