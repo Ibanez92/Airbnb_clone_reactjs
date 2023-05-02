@@ -8,8 +8,8 @@ function App() {
     const cards = data.map((info) => {
         return <Card img={info.coverImg}
             rating={info.stats.rating}
-            reviewCount={6}
-            country="USA"
+            reviewCount={info.stats.reviewCount}
+            country={info.location}
             title="Life Lessons with Katie Zaferes"
             price={136}/>
     })
