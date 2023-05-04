@@ -1,4 +1,4 @@
-// component card with props
+// component card
 import star from "../../images/star_1.png"
 
 export default function Card(props) {
